@@ -1,0 +1,247 @@
+.play{
+    position: absolute;
+    left: 15cm;
+    top: 9.5cm;
+}
+.h1{
+    text-align: center;
+    font-size: 35px;
+    font-family:monospace;
+}
+.start{
+    position: absolute;
+    top: 10.9cm;
+    left: 15.3cm;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.set{
+    position: absolute;
+    left: 23cm;
+    top: 2cm;
+    border: solid 4px grey;
+    background-color: cornsilk;
+    border-radius: 30%;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 0.2cm 0.2cm 0.2cm 0.2cm;
+}
+
+.home{
+    position: absolute;
+    top: 0.6cm;
+    left: 29cm;
+    height: 42.7px;
+}
+.home:hover{
+    border: solid 2px transparent;
+    box-shadow: black;
+}
+.home1{
+    position: absolute;
+    top: 1.6cm;
+    left: 29cm;
+    font-size: 14px;
+}
+.mEnu{
+    cursor: pointer;
+}
+
+
+
+.menu-drop1 {
+    background-color: pink;
+    border-radius: 20%;
+    padding: 0;
+    margin: 0;
+    width: 70px;
+    position: absolute;
+    top: 1.8cm;
+    cursor: pointer;
+    display: none;
+}
+ul{
+    padding: 0 2px 0 2px;
+    border-radius: 50%;
+    border: solid white 3px;
+    background-color: white;
+}
+li {
+    padding-top: 20px;
+    list-style: none;
+}
+.am{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu-bar:hover .menu-drop1 {
+    display: block;
+}
+
+li:hover .am{
+    border: plum solid 3px;
+    padding: 0.5px 1px 0.5px 1px;
+}
+
+
+ul li :hover {
+color: brown;
+border-radius: 10%;
+background-color:lightgrey;
+}
+
+.active{
+    position: absolute;
+    top: -0.5cm;
+}
+#ul1{
+    position: absolute;
+    left: 1.6cm;
+    top: -0.5cm;
+    padding: 0 2px 0 2px;
+    border-radius: 20%;
+    border: solid pink 3px;
+    background-color: white;
+    display: none;
+}
+.subm{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    width: 120px;
+    text-align: left;
+}
+#sub-menu:hover #ul1{
+    display: block;
+}
+.p1{
+    width:346px;
+    height:  559.5px; 
+}
+.btn{
+    position: absolute;
+    top: 1cm;
+    left: 1cm;
+    font-size: 19px;
+    color: white;
+    background-color: pink;
+    border: solid white 2px;
+    cursor: pointer;
+}
+.pr1{
+    width: 198px;
+    height: 426px;
+    position: absolute;
+    left: 14cm;
+    top: 3cm;
+}
+.pr2{
+width: 206px;
+height: 434.8px;
+position: absolute;
+top: 3cm;
+left: 14cm;
+
+}
+.mal2{
+    width: 46.2px;
+    height: 52px;
+    position: absolute;
+    top: 5cm;
+    left: 10cm;
+}
+.mal2:hover{
+    border: transparent solid 3px;
+}
+.mal1{
+    width: 46.2px;
+    height: 52px;
+    position: absolute;
+    top: 10cm;
+    left: 10cm;
+}
+.mal1:hover{
+    border: transparent solid 3px;
+}
+.bcitem2{
+    height: 481px;
+    width: 131px;
+    position: absolute;
+    left: 9cm;
+}
+
+
+.next{
+    position: absolute;
+    top: 1cm;
+    left: 29cm;
+    font-size: 19px;
+    color: white;
+    background-color: pink;
+    border: solid white 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mEnu{
+    position: absolute;
+    top: 1cm;
+    display: flex;
+    width: 40.6px;
+    height: 23.8px;
+    display: flex;
+}
+
+
+.mEnu:hover #dropdown{
+    display: flex;
+}
+
+:focus-within #dropdown{
+    display: flex;
+}
+
+#dropdown {
+    position: absolute;
+    width: fit-content;
+    display: none;
+    flex-direction: column;
+    top: 60px;
+    background-color: whitesmoke;
+    padding: 50px 0px;
+    border-radius: 5%;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.links{
+    display: block;
+    color: black;
+    padding: 5px 0px;
+    text-decoration: none;
+    padding: 10px 50px 10px 20px;
+
+
+}
