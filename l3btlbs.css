@@ -139,7 +139,7 @@ left: 12cm;
   .pr2, .pr1 {
     position: absolute;
       top: 3cm;
-      left: 1cm;
+      left: -1cm;
   }
 }
 
