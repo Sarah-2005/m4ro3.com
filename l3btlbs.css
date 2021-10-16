@@ -135,11 +135,18 @@ top: 5cm;
 left: 12cm;
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width: 800px) {
   .pr2, .pr1, .play {
     position: absolute;
       top: 3cm;
-      left: 1cm;
+      left: 1mm;
   }
 }
 
