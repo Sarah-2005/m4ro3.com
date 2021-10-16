@@ -139,25 +139,31 @@ left: 12cm;
 
 
 
-
-
-
 @media screen and (max-width: 600px) {
-  .pr2{
-    position: absolute;
-      left: 1cm;
-  }
-    
-  .pr1{
-      position: absolute;
-      top:10cm;
-}
-.play{
-    position: absolute;
-    top: 3cm;
-        left: 8cm;
+    .pr2{
+        position: absolute;
+        left: 1cm;
+        width: 103px;
+        height: 217.4px;
     }
+      
+    .pr1{
+        position: absolute;
+        top:10cm;    
+        width: 99px;
+        height: 213px;
+  }
+  .play{
+      position: absolute;
+      top: 3cm;
+      left: 8cm;
+  }
+  .h1{
+      position:relative;
+      left: 2cm;
 
+  }
+}
 
 
 
