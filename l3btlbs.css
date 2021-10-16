@@ -1,8 +1,3 @@
-.play{
-    position: absolute;
-    left: 15.3cm;
-    top: 12cm;
-}
 .h1{
     text-align: center;
     font-size: 35px;
@@ -119,6 +114,11 @@ background-color:lightgrey;
 #sub-menu:hover #ul1{
     display: block;
 }
+.play{
+    position: absolute;
+    left: 15.3cm;
+    top: 12cm;
+}
 .pr1{
     width: 99px;
     height: 213px;
@@ -146,15 +146,18 @@ left: 12cm;
   .pr2{
     position: absolute;
       top: 3cm;
-      left: 1mm;
+      left: 1cm;
   }
     
   .pr1{
       position: absolute;
       top:10cm;
 }
-
-
+.play{
+    position: absolute;
+    top: 3cm:
+        left: 8cm;
+    }
 
 
 
