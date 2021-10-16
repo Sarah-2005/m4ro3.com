@@ -123,7 +123,7 @@ background-color:lightgrey;
     width: 99px;
     height: 213px;
     position: absolute;
-    left: 8cm;
+    left: 17cm;
     top: 5cm;
 
 }
@@ -149,13 +149,13 @@ left: 12cm;
       
     .pr1{
         position: absolute;
-        left: 10cm;    
+        left: 3cm;    
         width: 99px;
         height: 213px;
   }
   .play{
       position: absolute;
-      left: 4cm;
+      left: 5cm;
   }
   .h1{
       position:relative;
