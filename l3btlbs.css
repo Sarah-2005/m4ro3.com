@@ -145,7 +145,6 @@ left: 12cm;
 @media screen and (max-width: 600px) {
   .pr2{
     position: absolute;
-      top: 3cm;
       left: 1cm;
   }
     
@@ -155,7 +154,7 @@ left: 12cm;
 }
 .play{
     position: absolute;
-    top: 3cm:
+    top: 3cm;
         left: 8cm;
     }
 
