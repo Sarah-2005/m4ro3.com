@@ -137,7 +137,9 @@ left: 12cm;
 
 @media screen and (max-width: 800px) {
   .pr2, .pr1 {
-    width: 100%;
+    position: absolute;
+      top: 3cm;
+      
   }
 }
 
